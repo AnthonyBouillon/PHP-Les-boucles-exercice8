@@ -5,6 +5,7 @@
     <title>Les boucles exercice 8</title>
   </head>
   <body>
+    <!-- Commentaire -->
     <?php
     $number = 200;
     while($number >= 0){
