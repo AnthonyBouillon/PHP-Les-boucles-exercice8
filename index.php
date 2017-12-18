@@ -5,13 +5,11 @@
     <title>Les boucles exercice 8</title>
   </head>
   <body>
-    <!-- Commentaire -->
+    <!-- 200 jusqu'a 0 on diminue de 12 -->
     <?php
-    $number = 200;
-    while($number >= 0){
-      echo '<p>Enfin'. ' ' .$number. '</p>';
-      $number = $number - 12;
-    }
+    for ($i=200; $i >= 0 ; $i = $i - 12) {
+      echo 'Enfin'. ' ' .$i. ' ! ';
+    };
      ?>
   </body>
 </html>
